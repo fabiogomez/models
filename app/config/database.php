@@ -55,7 +55,11 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
+<<<<<<< HEAD
 			'database'  => 'models_v_1',
+=======
+			'database'  => 'models_v1',
+>>>>>>> 9e102b839d4fb8db48004c6da771cbac99db4fc5
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

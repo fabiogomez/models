@@ -16,6 +16,8 @@ return array(
 	*/
 
 	'driver' => 'eloquent',
+	
+	
 
 	/*
 	|--------------------------------------------------------------------------
@@ -57,6 +59,8 @@ return array(
 	| they have less time to be guessed. You may change this as needed.
 	|
 	*/
+	
+	
 
 	'reminder' => array(
 
