@@ -14,18 +14,4 @@
 Route::get('/', function()
 {
 	return View::make('hello');
-	
 });
-Route::get('/test', function()
-{
-	$user = User::find(1);
-	print_r($user->profile);
-	
-});
-
-Route::get('users/list','UserController@getListUsers');
-Route::controller('users','UserController');
-Route::controller('profiles','ProfileController');
-Route::get('login','AuthController@getLogin');
-Route::post('login','AuthController@postLogin');
-
